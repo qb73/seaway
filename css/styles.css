@@ -1,0 +1,229 @@
+/* CSS Document */
+
+/* Colors
+Very Dark Blue: #262F40
+Dark Blue: #4D688C
+Blue: #759CBF
+Light Blue: #C4EEF2
+Orange: #ff9900
+*/
+
+
+/* CSS Reset */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+/* Body Styles */
+
+body {
+	
+}
+
+/* End of Body Styles */
+
+
+/* Header Styles */
+
+header {
+	padding: 90px 50px;
+	background-image: url("../images/slsHeroImage.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+h1, blockquote {
+	color: #ff9900; /* Orange */
+	text-align: center;
+}
+
+h1 {
+	font-size: 4.5em;
+}
+
+blockquote {
+	font-size: 3em;
+}
+
+/* End of Header Styles */
+
+
+/* Top (Both) Navigation Styles */
+
+nav {
+	background-color: #ff9900; /* Orange */
+	clear: both;
+}
+
+nav ul {;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+nav a {
+	color: #C4EEF2; /* Light Blue */
+	background-color: #ff9900; /* Orange */
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ff9900; /* Orange */
+	background-color: #C4EEF2; /* Light Blue */
+}
+
+.tNav {
+	padding: 40px 200px;
+}
+
+.tNav a {
+	padding: 40px 40px;
+	font-size: 2.05em;
+}
+
+/* End of Top Navigation Styles */
+
+
+/* Main Styles */
+
+main {
+	/* Very Dark Blue */
+	background-color: #759CBF; /* Blue */
+	padding-top: 15px;
+	min-height: 538px;
+	
+}
+
+h2, p {
+	color: #262F40;
+}
+
+h2 {
+	margin-top: 20px;
+	text-align: center; 
+	font-size: 2em;
+}
+
+form {
+	width: 30%;
+	margin-top: 5%;
+	margin-left: 455px;
+	border: 10px #4D688C solid; /* Dark Blue */
+	color: white;
+	background-color: #ff9900; /* Orange */
+	padding: 50px; /* T R B L */
+	font-size: 1.25em;
+}
+
+input {
+	font-size: 1.1em; 
+	border-radius: 5px;
+	background-color: white;
+}
+
+input[type=text] {
+	width: 70%;
+}
+		
+input[type=email] {
+	width: 98%;
+}
+
+input[type=submit] {
+	background-color: #D81F0A; /* Red */
+	color: white;
+	padding: 3%;
+	margin: 10%;
+}
+
+input[type=submit]:hover {
+	background-color: #7CB54A; /* Green */
+	color: white;
+	padding: 3%;
+}
+input[type=reset] {
+	background-color: white;
+	color: black;
+	padding: 3%;
+}
+
+input[type=reset]:hover {
+	background-color: orange;
+	color: white;
+	padding: 3%;
+}
+
+
+p {
+	margin: 30px 145px 0px 150px; /* TRBL */
+	text-align: left;
+	font-size: 1.1em;
+}
+
+.fltRight {
+	float: right;
+	margin-right: 50px;
+}
+
+.imgCenter {
+	text-align: center;
+	padding: 1% 0;
+}
+
+#newsImage {
+	margin-left: 455px;
+}
+
+/* End of Main Styles */
+
+
+/* Footer (bNav) Styles */
+
+.bNav {
+	padding: 30px 175px;
+}
+
+.bNav a {
+	padding: 30px 65px;
+	font-size: 1.4em;
+}
+
+footer {
+	clear: both;
+	padding-bottom: 65px;
+	color: #ff9900; /* Orange */
+	background-color: #4D688C; /* Dark Blue */
+}
+
+h3, h4, h5 {
+	padding: 10px;
+}
+
+h3, h4 {
+	margin-top: 20px;
+	text-align: center;
+	padding: 10px;
+}
+
+h5 {
+	margin-left: 400px;
+	margin-right: 400px;
+	text-align: left;
+}
+
+/* End of Footer Styles */
+
+
+
+
+/* Other */
+
+table {
+	
+}
